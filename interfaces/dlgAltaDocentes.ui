@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlgAltaDocentes</class>
+ <widget class="QDialog" name="dlgAltaDocentes">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>692</width>
+    <height>557</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>692</width>
+    <height>557</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>692</width>
+    <height>557</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Alta de Docentes</string>
+  </property>
+  <widget class="QLabel" name="lblDNI">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DNI</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblApellido">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Apellido/s</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>80</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nombre/s</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblDomicilio">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Domicilio</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblLocalidad">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>120</y>
+     <width>51</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Localidad</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblCodigoPostal">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Código Postal</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblFechaIngreso">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>40</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fecha de Ingreso</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblEMail">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>160</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>E-Mail</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leDNI">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>40</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Sólo números</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="clearButtonEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leApellido">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Sólo letras</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leNombre">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>80</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Sólo letras</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leDomicilio">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>120</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Alfanumérico</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leLocalidad">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>120</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Alfanumérico</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leCodigoPostal">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>160</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Sólo números</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leEMail">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>160</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Formato e-mail correcto</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="twTelefonos">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>390</y>
+     <width>251</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::NoEditTriggers</set>
+   </property>
+   <property name="showGrid">
+    <bool>false</bool>
+   </property>
+   <property name="columnCount">
+    <number>2</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>Nro Teléfono</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Aclaración</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="twMateriasElegidas">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>300</y>
+     <width>131</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::EditKeyPressed</set>
+   </property>
+   <property name="showGrid">
+    <bool>false</bool>
+   </property>
+   <property name="columnCount">
+    <number>1</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>Materias dictadas</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pbAgregarMateria">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>360</y>
+     <width>41</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Agregar Materia</string>
+   </property>
+   <property name="text">
+    <string>&gt;&gt;</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="deFechaIngreso">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>40</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Por defecto utiliza fecha actual</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="twMateriasAElegir">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>300</y>
+     <width>191</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="editTriggers">
+    <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::EditKeyPressed</set>
+   </property>
+   <property name="showGrid">
+    <bool>false</bool>
+   </property>
+   <property name="columnCount">
+    <number>2</number>
+   </property>
+   <column>
+    <property name="text">
+     <string>Materias Elegir</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nivel</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>271</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Nuevo Telefono</string>
+   </property>
+   <widget class="QPushButton" name="pbAgregarTelefono">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>10</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Agrega y aparece en la tabla inferior</string>
+    </property>
+    <property name="text">
+     <string>Agregar
+Teléfono</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTelefono">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Número</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leTelefono">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>30</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="leAclaracion">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblAclaracion">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Aclaración</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pbGuardarDocente">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Será convertido todo a MAYÚSCULAS</string>
+   </property>
+   <property name="text">
+    <string>Guarda y Agrega Teléfonos/Materias</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>651</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="lineWidth">
+    <number>3</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbNuevoDocente">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>500</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Limpia todo para ingresar nuevo usuario</string>
+   </property>
+   <property name="text">
+    <string>Agrega Nuevo Docente</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>leDNI</tabstop>
+  <tabstop>deFechaIngreso</tabstop>
+  <tabstop>leApellido</tabstop>
+  <tabstop>leNombre</tabstop>
+  <tabstop>leDomicilio</tabstop>
+  <tabstop>leLocalidad</tabstop>
+  <tabstop>leCodigoPostal</tabstop>
+  <tabstop>leEMail</tabstop>
+  <tabstop>leTelefono</tabstop>
+  <tabstop>leAclaracion</tabstop>
+  <tabstop>pbAgregarTelefono</tabstop>
+  <tabstop>twMateriasAElegir</tabstop>
+  <tabstop>twMateriasElegidas</tabstop>
+  <tabstop>twTelefonos</tabstop>
+  <tabstop>pbAgregarMateria</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,20 @@
+<table border=2 cellspacing=0 style=width:50% rules=all>
+<colgroup> <col span=1 style=width: 15%;> <col span=1 style=width: 70%;> <col span=1 style=width: 15%;> </colgroup>
+<caption style=font-size:150%;>HORARIOS DEL TURNO MAÑANA - AÑO: 2019 - NIVEL: 1 - CURSO: A</caption>
+<tr border=1><th style=font-size:120%;>HORAS</th><th style=font-size:120%;>LUNES</th><th style=font-size:120%;>MARTES</th><th style=font-size:120%;>MIERCOLES</th><th style=font-size:120%;>JUEVES</th><th style=font-size:120%;>VIERNES</th></tr>
+<tbody align=center valign=top bgcolor = #dce0e0>
+<tr><th rowspan=2 valign=middle>PRIMERA HORA</th><td align=center>PROGRAMACIÓN I</td><td align=center>ADMINISTRACIÓN DE LAS ORGANIZACIONES</td><td align=center>ARQUITECTURA DE COMPUTADORES</td><td align=center>INTRODUCCIÓN A LOS SISTEMAS DE INFORMACIÓN</td><td align=center>PROGRAMACIÓN I</td></tr>
+<tr><td align=center>BENITEZ FRANCISCO ALEJANDRO</td><td align=center>SANTA CRUZ CRISTIAN ALBERTO</td><td align=center>BENITEZ DI PASCUA VICTORIA NAZARETH</td><td align=center>BENITEZ DI PASCUA BENICIO MISAEL</td><td align=center>BENITEZ FRANCISCO ALEJANDRO</td></tr>
+</tbody>
+<tbody align=center valign=top >
+<tr><th rowspan=2 valign=middle>SEGUNDA HORA</th><td align=center>PROGRAMACIÓN I</td><td align=center>ARQUITECTURA DE COMPUTADORES</td><td align=center>ADMINISTRACIÓN DE LAS ORGANIZACIONES</td><td align=center>INTRODUCCIÓN A LOS SISTEMAS DE INFORMACIÓN</td><td align=center>PROGRAMACIÓN I</td></tr>
+<tr><td align=center>BENITEZ FRANCISCO ALEJANDRO</td><td align=center>BENITEZ DI PASCUA VICTORIA NAZARETH</td><td align=center>SANTA CRUZ CRISTIAN ALBERTO</td><td align=center>BENITEZ DI PASCUA BENICIO MISAEL</td><td align=center>BENITEZ FRANCISCO ALEJANDRO</td></tr>
+</tbody>
+<tbody align=center valign=top bgcolor = #dce0e0>
+<tr><th rowspan=2 valign=middle>TERCERA HORA</th><td align=center>ANÁLISIS MATEMÁTICO I</td><td align=center>ARQUITECTURA DE COMPUTADORES</td><td align=center>METODOLOGÍA DE LA INVESTIGACIÓN</td><td align=center>ÁLGEBRA</td><td align=center>INGLÉS TÉCNICO I</td></tr>
+<tr><td align=center>VELASQUEZ ROMINA</td><td align=center>BENITEZ DI PASCUA VICTORIA NAZARETH</td><td align=center>VELASQUEZ ROMINA</td><td align=center>LOPEZ SUSANA</td><td align=center>DI PASCUA DANIELA </td></tr>
+</tbody>
+<tbody align=center valign=top >
+<tr><th rowspan=2 valign=middle>CUARTA HORA</th><td align=center>ANÁLISIS MATEMÁTICO I</td><td align=center>METODOLOGÍA DE LA INVESTIGACIÓN</td><td align=center>EDI I</td><td align=center>ÁLGEBRA</td><td align=center>INGLÉS TÉCNICO I</td></tr>
+<tr><td align=center>VELASQUEZ ROMINA</td><td align=center>VELASQUEZ ROMINA</td><td align=center>DI PASCUA DANIELA </td><td align=center>LOPEZ SUSANA</td><td align=center>DI PASCUA DANIELA </td></tr> </table>
+Fecha: 17/11/2020-17:43</tbody>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Docentes y Horarios - El Tato - Secundaria</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../.designer/backup/elTato.ico</normaloff>../../../.designer/backup/elTato.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lblLogoCentro">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>150</y>
+      <width>171</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/elTatoCentro.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblXY">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>0</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menuAcceso">
+    <property name="title">
+     <string>Acceso</string>
+    </property>
+    <addaction name="actionCambiar_Usuario"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <widget class="QMenu" name="menuDocentes">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="title">
+     <string>Docentes</string>
+    </property>
+    <widget class="QMenu" name="menuAdministrar_Docentes">
+     <property name="title">
+      <string>Administrar Docentes</string>
+     </property>
+     <addaction name="actionAlta_de_Docentes"/>
+     <addaction name="actionModificacion_de_Docentes"/>
+    </widget>
+    <addaction name="menuAdministrar_Docentes"/>
+    <addaction name="actionCargar_Disponibilidad"/>
+   </widget>
+   <widget class="QMenu" name="menuCursos_y_Materias">
+    <property name="title">
+     <string>Materias y Cursos</string>
+    </property>
+    <addaction name="actionAgregar_Materias"/>
+    <addaction name="actionAdministrarCursos"/>
+   </widget>
+   <widget class="QMenu" name="menuGrilla">
+    <property name="title">
+     <string>Grilla</string>
+    </property>
+    <addaction name="actionConfeccionar_Grilla"/>
+    <addaction name="actionConsultar_Grilla"/>
+   </widget>
+   <widget class="QMenu" name="menuUsuarios">
+    <property name="title">
+     <string>Usuarios</string>
+    </property>
+    <addaction name="actionAdministrar_Usuarios"/>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionAcerca_de"/>
+   </widget>
+   <addaction name="menuAcceso"/>
+   <addaction name="menuDocentes"/>
+   <addaction name="menuCursos_y_Materias"/>
+   <addaction name="menuGrilla"/>
+   <addaction name="menuUsuarios"/>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <action name="actionCambiar_Usuario">
+   <property name="text">
+    <string>Cambiar Usuario</string>
+   </property>
+   <property name="toolTip">
+    <string>Cambiar Usuario</string>
+   </property>
+   <property name="statusTip">
+    <string>Cambia de usuario sin salir</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+   <property name="statusTip">
+    <string>Salir de la Aplicacion</string>
+   </property>
+  </action>
+  <action name="actionCargar_Disponibilidad">
+   <property name="text">
+    <string>Cargar Disponibilidad</string>
+   </property>
+   <property name="toolTip">
+    <string>Carga disponibilidad de los docentes</string>
+   </property>
+   <property name="statusTip">
+    <string>Carga disponibilidad de los docentes</string>
+   </property>
+  </action>
+  <action name="actionAdministrar_Cursos">
+   <property name="text">
+    <string>Administrar Cursos</string>
+   </property>
+  </action>
+  <action name="actionAgregar_Materias">
+   <property name="text">
+    <string>Administrar Materias</string>
+   </property>
+   <property name="toolTip">
+    <string>Alta, y Modificacion de Materias</string>
+   </property>
+   <property name="statusTip">
+    <string>Alta y Modificacion de Materias</string>
+   </property>
+  </action>
+  <action name="actionConfeccionar_Grilla">
+   <property name="text">
+    <string>Confeccionar Grilla</string>
+   </property>
+   <property name="toolTip">
+    <string>Confecciona Automaticamente la Grilla</string>
+   </property>
+   <property name="statusTip">
+    <string>Confecciona Automaticamente la Grilla</string>
+   </property>
+  </action>
+  <action name="actionConsultar_Grilla">
+   <property name="text">
+    <string>Consultar Grilla</string>
+   </property>
+   <property name="toolTip">
+    <string>Consulta Grillas Creadas</string>
+   </property>
+   <property name="statusTip">
+    <string>Consulta Grillas Creadas</string>
+   </property>
+  </action>
+  <action name="actionEditar_Grilla">
+   <property name="text">
+    <string>Editar Grilla</string>
+   </property>
+  </action>
+  <action name="actionAdministrar_Usuarios">
+   <property name="text">
+    <string>Administrar Usuarios</string>
+   </property>
+   <property name="statusTip">
+    <string>ABM de usuarios</string>
+   </property>
+  </action>
+  <action name="actionLicencia">
+   <property name="text">
+    <string>Licencia</string>
+   </property>
+  </action>
+  <action name="actionAcerca_de">
+   <property name="text">
+    <string>Acerca de...</string>
+   </property>
+   <property name="statusTip">
+    <string>Sobre esta App</string>
+   </property>
+  </action>
+  <action name="actionAlta_de_Docentes">
+   <property name="text">
+    <string>Alta de Docentes</string>
+   </property>
+   <property name="toolTip">
+    <string>Agrega nuevos docentes</string>
+   </property>
+   <property name="statusTip">
+    <string>Agrega nuevos docentes</string>
+   </property>
+  </action>
+  <action name="actionModificacion_de_Docentes">
+   <property name="text">
+    <string>Modificacion de Docentes</string>
+   </property>
+   <property name="toolTip">
+    <string>Modifica los docentes cargados</string>
+   </property>
+   <property name="statusTip">
+    <string>Modifica los docentes cargados</string>
+   </property>
+  </action>
+  <action name="actionAdministrarCursos">
+   <property name="text">
+    <string>Configurar Cursos</string>
+   </property>
+   <property name="toolTip">
+    <string>Configura Cursos disponibles en el Año Lectivo</string>
+   </property>
+   <property name="statusTip">
+    <string>Configura Cursos disponibles en el Año Lectivo</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
